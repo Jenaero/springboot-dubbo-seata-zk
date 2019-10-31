@@ -188,7 +188,7 @@
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.sonatype.plexus:plexus-build-api:0.0.7" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.22" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.32.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.42.Final" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.spring:spring-context-support:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.11" level="project" />
