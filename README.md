@@ -1,4 +1,4 @@
-面我已经写过一篇[SpringBoot+Nacos+Seata实现Dubbo分布式事务管理](https://blog.csdn.net/u010046908/article/details/100536439)的文章，今天为什么还要写这篇呢，是因为好多公司还在用`Zookeeper`作为`Dubbo`的注册中心和配置中心在大规模使用，还没有完全迁移到`Nacos`上来，所以`Seata`的注册中心和配置也是支持`Zookeeper`，但是官方没有完整的使用教程，因此，写这篇主要为了帮助使用`Zookeeper`的用户也可以轻松使用`Seata`。
+前面我已经写过一篇[SpringBoot+Nacos+Seata实现Dubbo分布式事务管理](https://blog.csdn.net/u010046908/article/details/100536439)的文章，今天为什么还要写这篇呢，是因为好多公司还在用`Zookeeper`作为`Dubbo`的注册中心和配置中心在大规模使用，还没有完全迁移到`Nacos`上来，所以`Seata`的注册中心和配置也是支持`Zookeeper`，但是官方没有完整的使用教程，因此，写这篇主要为了帮助使用`Zookeeper`的用户也可以轻松使用`Seata`。
 ## 1.简介
 >本文主要介绍SpringBoot2.1.5 + Dubbo 2.7.3 + Mybatis 3.4.2 + Zookeeper 3.4.14 +Seata 0.9.0整合来实现Dubbo分布式事务管理，使用Zookeeper 作为 Dubbo和Seata的注册中心和配置中心,使用 MySQL 数据库和 MyBatis来操作数据。
 
